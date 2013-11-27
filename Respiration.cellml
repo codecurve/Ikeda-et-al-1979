@@ -733,7 +733,6 @@
         </apply>
       </apply>
     </math>
-    <variable name="XHB         " units="dimensionless"/>
     <variable name="XHB" units="dimensionless"/>
     <variable name="PBA" units="dimensionless"/>
     <variable name="PBL" units="dimensionless"/>
