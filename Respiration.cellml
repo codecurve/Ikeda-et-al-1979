@@ -740,16 +740,16 @@
     <variable name="MRCO" units="dimensionless"/>
     <variable name="MRO2" units="dimensionless"/>
     <variable name="t" units="dimensionless"/>
-    <variable name="FCOA" units="dimensionless"/>
-    <variable name="FO2A" units="dimensionless"/>
-    <variable name="VI" units="dimensionless"/>
+    <variable initial_value="0.0561" name="FCOA" units="dimensionless"/>
+    <variable initial_value="0.1473" name="FO2A" units="dimensionless"/>
+    <variable initial_value="5" name="VI" units="dimensionless"/>
     <variable name="FCOI" units="dimensionless"/>
     <variable name="FO2I" units="dimensionless"/>
-    <variable name="UCOV" units="dimensionless"/>
+    <variable initial_value="0.6075" name="UCOV" units="dimensionless"/>
     <variable name="QCO" units="dimensionless"/>
     <variable name="UCOA" units="dimensionless"/>
     <variable name="VTW" units="dimensionless"/>
-    <variable name="UO2V" units="dimensionless"/>
+    <variable initial_value="0.1515" name="UO2V" units="dimensionless"/>
     <variable name="UO2A" units="dimensionless"/>
     <variable name="VR" units="dimensionless"/>
     <variable name="VI0" units="dimensionless"/>
@@ -768,10 +768,10 @@
     <variable name="UHB" units="dimensionless"/>
     <variable name="g" units="dimensionless"/>
     <variable name="DCLA" units="dimensionless"/>
-    <variable name="XCO3" units="dimensionless"/>
+    <variable initial_value="24" name="XCO3" units="dimensionless"/>
     <variable name="STBC" units="dimensionless"/>
     <variable name="XCO0" units="dimensionless"/>
     <variable name="TRSP" units="dimensionless"/>
     <variable name="k5" units="dimensionless"/>
-  </component>
+  <math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq/><ci>FCOI</ci><cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0</cn></apply><apply><eq/><ci>FO2I</ci><cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0.21</cn></apply></math></component>
 </model>
