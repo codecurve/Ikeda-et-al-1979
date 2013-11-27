@@ -773,5 +773,21 @@
     <variable name="XCO0" units="dimensionless"/>
     <variable name="TRSP" units="dimensionless"/>
     <variable name="k5" units="dimensionless"/>
-  <math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq/><ci>FCOI</ci><cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0</cn></apply><apply><eq/><ci>FO2I</ci><cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0.21</cn></apply></math></component>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <eq/>
+        <ci>FCOI
+        </ci>
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0
+        </cn>
+      </apply>
+      <apply>
+        <eq/>
+        <ci>FO2I
+        </ci>
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0.21
+        </cn>
+      </apply>
+    </math>
+  </component>
 </model>
