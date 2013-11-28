@@ -771,7 +771,7 @@
     <variable initial_value="24" name="XCO3" units="dimensionless"/>
     <variable name="STBC" public_interface="in" units="dimensionless"/>
     <variable name="XCO0" units="dimensionless"/>
-    <variable name="TRSP" units="dimensionless"/>
+    <variable name="TRSP" public_interface="in" units="dimensionless"/>
     <variable name="k5" units="dimensionless"/>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply id="33">
@@ -815,6 +815,13 @@
       </apply>
       <apply id="38">
         <eq/>
+        <ci>TRSP
+        </ci>
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">1
+        </cn>
+      </apply>
+      <apply id="39">
+        <eq/>
         <ci>TRSP1
         </ci>
         <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">2
@@ -825,12 +832,14 @@
     <variable name="QCO" public_interface="out" units="dimensionless"/>
     <variable name="VTW" public_interface="out" units="dimensionless"/>
     <variable name="TRSP1" public_interface="out" units="dimensionless"/>
+    <variable name="TRSP" public_interface="out" units="dimensionless"/>
   </component>
   <connection>
     <map_components component_1="Main" component_2="InputsDummies"/>
     <map_variables variable_1="STBC" variable_2="STBC"/>
     <map_variables variable_1="QCO" variable_2="QCO"/>
     <map_variables variable_1="VTW" variable_2="VTW"/>
+    <map_variables variable_1="TRSP" variable_2="TRSP"/>
     <map_variables variable_1="TRSP1" variable_2="TRSP1"/>
   </connection>
 </model>
