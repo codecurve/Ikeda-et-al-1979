@@ -753,7 +753,7 @@
     <variable name="UO2A" units="dimensionless"/>
     <variable name="VR" units="dimensionless"/>
     <variable name="VI0" units="dimensionless"/>
-    <variable name="TRSP1" units="dimensionless"/>
+    <variable name="TRSP1" public_interface="in" units="dimensionless"/>
     <variable name="k1" units="dimensionless"/>
     <variable name="PHA" units="dimensionless"/>
     <variable name="k6" units="dimensionless"/>
@@ -813,15 +813,24 @@
         <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">0
         </cn>
       </apply>
+      <apply id="38">
+        <eq/>
+        <ci>TRSP1
+        </ci>
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">2
+        </cn>
+      </apply>
     </math>
     <variable name="STBC" public_interface="out" units="dimensionless"/>
     <variable name="QCO" public_interface="out" units="dimensionless"/>
     <variable name="VTW" public_interface="out" units="dimensionless"/>
+    <variable name="TRSP1" public_interface="out" units="dimensionless"/>
   </component>
   <connection>
     <map_components component_1="Main" component_2="InputsDummies"/>
     <map_variables variable_1="STBC" variable_2="STBC"/>
     <map_variables variable_1="QCO" variable_2="QCO"/>
     <map_variables variable_1="VTW" variable_2="VTW"/>
+    <map_variables variable_1="TRSP1" variable_2="TRSP1"/>
   </connection>
 </model>
