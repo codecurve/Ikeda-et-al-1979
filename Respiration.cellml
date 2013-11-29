@@ -796,21 +796,21 @@
         <eq/>
         <ci>STBC
         </ci>
-        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">1
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">24
         </cn>
       </apply>
       <apply id="36">
         <eq/>
         <ci>QCO
         </ci>
-        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">1
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">5
         </cn>
       </apply>
       <apply id="37">
         <eq/>
         <ci>VTW
         </ci>
-        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">1
+        <cn xmlns:cellml="http://www.cellml.org/cellml/1.1#" cellml:units="dimensionless">31
         </cn>
       </apply>
       <apply id="38">
